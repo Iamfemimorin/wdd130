@@ -23,17 +23,12 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
     background-color: steelblue;
     padding: 10px;
-    gap: 2rem;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
-    font-weight: bold;
     display: block;
     padding: 20px;
     text-decoration: none;
@@ -45,21 +40,16 @@ nav a:hover {
 
 h1 {
     color: steelblue;
-    margin-bottom: 15px;
 }
 
 main {
     max-width: 840px;
-    margin: 1rem auto;
-    padding: 1rem;
 }
 
 main img {
     width: 150px;
     height: auto;
-    float: right;
-    margin-left: 20px;
-    border: 1px solid steelblue;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -82,15 +72,12 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid black;
     text-align: center;
-    padding: 1rem;
 }
 
 p {
