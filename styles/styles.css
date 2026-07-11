@@ -13,6 +13,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -23,6 +25,8 @@ header {
 nav {
     display: flex;
     justify-content: center;
+    background-color: steelblue;
+    padding: 10px;
     gap: 2rem;
 }
 
@@ -30,6 +34,9 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -52,8 +59,9 @@ main img {
     height: auto;
     float: right;
     margin-left: 20px;
-    border: 2px solid steelblue;
-    padding: 5px;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
@@ -63,11 +71,11 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem auto;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eeeeee;
-    color: #333;
+    color: #333333;
     text-align: center;
 }
 
@@ -83,4 +91,8 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
     padding: 1rem;
+}
+
+p {
+    padding: 0;
 }
